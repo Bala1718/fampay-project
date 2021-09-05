@@ -23,6 +23,18 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-r4t4cra=-h-yo2_mii*he_+fhfm8^!a-fv-=&3-@$l05m1il*g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+
+# API Key for YouTube API
+DEVELOPER_KEY = "AIzaSyCNdjJ0KpKB_1SkFlDpCk05XYI1bcvhrSc"
+
+# Name of the API Service
+YOUTUBE_API_SERVICE_NAME = "youtube"
+
+# The version that would be used for this app
+YOUTUBE_API_VERSION = "v3"
+
+# SECURITY WARNING: don't run with debug turned on in production!
+
 DEBUG = True
 
 ALLOWED_HOSTS = []
