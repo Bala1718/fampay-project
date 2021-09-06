@@ -21,11 +21,29 @@ Views interacts with Model to execute the Business Logic written in Model. The v
 
 It's user interface, (frontend) part of the application
 
+# PostMan Application
+
+API Updates by the videos latest every 10 seconds, can debug using postman, postman collections can be given during review.
+
+http://127.0.0.1:8001/api/get_videos
+
+Status	200 OK
 
 # Steps for Running the Project.
 
 # Clone the Git Repository
 
+git clone 
+
 # Install all the Requirements.
 
+pip install requirements.txt
+
 # Add the Youtube API-Key
+
+Add the Dev Key in settings.
+
+# Video Updating every 25 seconds after 1st March 2020
+
+localhost:8000
+http://127.0.0.1:8000/
