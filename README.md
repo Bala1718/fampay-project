@@ -7,7 +7,7 @@ The main idea is to fetch Youtube videos every 15 seconds after 1st March, 2020.
 
 Django follows Model View Template Architecture/ Model View Controller Part. It has three segments into it, Model, Views, Controller / Model, Views, Template.
 
-<img width="323" alt="Screenshot 2021-09-06 at 7 43 02 PM" src="https://user-images.githubusercontent.com/19856958/132230163-1b575ea0-4bf4-4db4-8508-0496acab6139.png">
+<img width="323" alt="132230163-1b575ea0-4bf4-4db4-8508-0496acab6139" src="https://user-images.githubusercontent.com/19856958/132262297-33d9d9a9-3a3a-4bfa-88e4-2dcd5d33279a.png">
 
 # Model
 
@@ -29,7 +29,7 @@ http://127.0.0.1:8001/api/get_videos
 
 Status	200 OK
 
-# Steps for Running the Project.
+## Steps for Running the Project.
 
 # Clone the Git Repository
 
@@ -42,6 +42,14 @@ pip install requirements.txt
 # Add the Youtube API-Key
 
 Add the Dev Key in settings.
+
+# Final Steps
+
+After cloning the Repository.
+Make sure to migrate the files to keep the Database upto date.
+
+python manage.py migrate
+python manage.py runserver
 
 # Video Updating every 25 seconds after 1st March 2020
 
